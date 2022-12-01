@@ -1,5 +1,5 @@
 # agg_WGCN
-Pipeline for generating full and filtered GCNs
+Pipeline for generating full and filtered aggregated by co-occurence GCNs
 
 IMPORTANT: This pipeline is suposed to work after the execution of the networks_alignment pipeline, available at (). This readme file helps the user to execute the pipeline. Information about how the pipeline works is available at CITE PAPER.
 
