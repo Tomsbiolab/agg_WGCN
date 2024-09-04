@@ -80,9 +80,9 @@ echo
 echo '**************** COMPUTING CO-OCCURRENCE ACROSS EXPERIMENTS ****************'
 echo
 
-# Computing the co-ocurrence matrix with "concurrencia_data.table.R" Rscript. This script will analyze all the HRR matrix previously generated.
+# Computing the co-ocurrence matrix with "co_occurrence_data.table.R" Rscript. This script will analyze all the HRR matrix previously generated.
 
-Rscript concurrencia_data.table.R $HRR'/' $co_ocurrence/co_occurrence_table.csv
+Rscript co_occurrence_data.table.R $HRR'/' $co_ocurrence/co_occurrence_table.csv
 
 sed -e 's/V1\t/\t/g' $co_ocurrence/co_occurrence_table.csv > $co_ocurrence/co_occurrence_table_def.csv
 
